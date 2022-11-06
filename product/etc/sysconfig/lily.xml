@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- These are configurations that should exist on lily devices -->
+<config>
+    <!-- This feature is meant to be the feature identifying devices that are running android lily -->
+    <feature name="com.google.android.feature.LILY_EXPERIENCE" />
+
+    <!-- Hide DocumentsUi Launcher intent handling. -->
+    <component-override package="com.android.documentsui" >
+        <component class="com.android.documentsui.LauncherActivity" enabled="false" />
+    </component-override>
+
+    <bugreport-whitelisted package="com.google.android.apps.betterbug.partners" />
+</config>

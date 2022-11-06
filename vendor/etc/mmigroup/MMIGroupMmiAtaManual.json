@@ -1,0 +1,40 @@
+{
+	"itemConfig": [
+		{
+			"showName": "MainCamera"
+		},
+		{
+			"showName": "FrontCamera"
+		},
+		{
+			"showName": "Flashlight"
+		},
+		{
+			"showName": "Speaker"
+		},
+		{
+			"showName": "Receiver"
+		},
+		{
+			"showName": "HeadSet"
+		},
+		{
+			"showName": "HsMicToHeadPhone"
+		},
+		{
+			"showName": "MainMicToHeadPhone"
+		},
+		{
+			"showName": "MainMicToReceiver"
+		},
+		{
+			"showName": "SubMicToSpeaker"
+		},
+		{
+			"showName": "Vibrator",
+			"paramconfig": {
+				"is_auto_vibrate": false
+			}
+		}
+	]
+}

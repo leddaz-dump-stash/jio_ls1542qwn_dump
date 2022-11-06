@@ -1,0 +1,130 @@
+{
+	"itemConfig": [
+		{
+			"showName": "VersionInfo"
+		},
+		{
+			"showName": "KeyPad"
+		},
+		{
+			"showName": "Vibrator",
+			"paramconfig": {
+				"is_auto_vibrate": false
+			}
+		},
+		{
+			"showName": "Backlight"
+		},
+		{
+			"showName": "LCD",
+			"paramconfig": {
+				"auto_switch": false,
+				"lcd_pic": [
+					"FiveColours=1500"
+				]
+			}
+		},
+		{
+			"showName": "TouchPanel"
+		},
+		{
+			"showName": "MainCamera"
+		},
+		{
+			"showName": "MainCamera2"
+		},
+		{
+			"showName": "MacroCamera"
+		},
+		{
+			"showName": "WideCamera"
+		},
+		{
+			"showName": "FrontCamera"
+		},
+		{
+			"showName": "FrontWideCamera"
+		},
+		{
+			"showName": "LightTEST"
+		},
+		{
+			"showName": "Flashlight"
+		},
+		{
+			"showName": "Speaker"
+		},
+		{
+			"showName": "Receiver"
+		},
+		{
+			"showName": "HeadSet"
+		},
+		{
+			"showName": "HsMicToHeadPhone"
+		},
+		{
+			"showName": "MainMicToHeadPhone"
+		},
+		{
+			"showName": "MainMicToReceiver"
+		},
+		{
+			"showName": "SubMicToSpeaker"
+		},
+		{
+			"showName": "FM"
+		},
+		{
+			"showName": "AovTest"
+		},
+		{
+			"showName": "Accelerometer",
+			"paramconfig": {
+				"support_calibrate": true,
+				"support_axialresult": true,
+				"support_angle45": false,
+				"support_angleneg45": false,
+				"is_auto_calibrate": false,
+				"support_plus_or_minus_45_degrees_either_pass_through": false,
+				"autoTest": {
+					"support_calibrate": false
+				}
+			}
+		},
+		{
+			"showName": "Optical"
+		},
+		{
+			"showName": "Proximity"
+		},
+		{
+			"showName": "Battery",
+			"paramconfig": {
+				"support_afc_charge": false
+			}
+		},
+		{
+			"showName": "OTG",
+			"support_autoTest_autopass": false
+		},
+		{
+			"showName": "SdCard"
+		},
+		{
+			"showName": "MainSIMCard"
+		},
+		{
+			"showName": "SubSIMCard"
+		},
+		{
+			"showName": "Wlan"
+		},
+		{
+			"showName": "Bluetooth"
+		},
+		{
+			"showName": "GPS"
+		}
+	]
+}

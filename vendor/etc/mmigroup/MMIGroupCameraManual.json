@@ -1,0 +1,24 @@
+{
+	"itemConfig": [{
+			"showName": "MainCamera"
+		},
+		{
+			"showName": "MainCamera2"
+		},
+		{
+			"showName": "PlatCameraZoom"
+		},
+		{
+			"showName": "WideCamera"
+		},
+		{
+			"showName": "MacroCamera"
+		},
+		{
+			"showName": "FrontCamera"
+		},
+		{
+			"showName": "FrontWideCamera"
+		}
+	]
+}

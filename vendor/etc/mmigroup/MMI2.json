@@ -1,0 +1,140 @@
+{
+	"itemConfig": [{
+			"showName": "VersionInfo"
+		},
+		{
+			"showName": "KeyPad"
+		},
+		{
+			"showName": "TpOpenShort"
+		},
+		{
+			"showName": "Backlight"
+		},
+		{
+			"showName": "LCD",
+			"paramconfig": {
+				"auto_switch": false
+			}
+		},
+		{
+			"showName": "TouchPal"
+		},
+		{
+			"showName": "MainCamera"
+		},
+		{
+			"showName": "FrontCamera"
+		},
+		{
+			"showName": "Flashlight"
+		},
+		{
+			"showName": "Speaker"
+		},
+		{
+			"showName": "Receiver"
+		},
+		{
+			"showName": "HeadSet"
+		},
+		{
+			"showName": "HsMicToHeadPhone"
+		},
+		{
+			"showName": "MainMicToHeadPhone"
+		},		
+		{
+			"showName": "MainMicToReceiver"
+		},
+		{
+			"showName": "SubMicToSpeaker"
+		},
+		{
+			"showName": "FM"
+		},
+		{
+			"showName": "Vibrator",
+			"paramconfig": {
+				"is_auto_vibrate": false
+			}
+		},
+		{
+			"showName": "Accelerometer",
+			"paramconfig": {
+				"support_calibrate": false,
+				"support_axialresult": true,
+				"support_angle45": true,
+				"support_angleneg45": true,
+				"is_auto_calibrate": false
+			}
+		},
+		{
+			"showName": "Optical"
+		},
+		{
+			"showName": "Proximity",
+			"action": "com.mmigroup.action.PROXIMITY_SS",
+			"paramconfig": {
+				"distance_tolerance": 0.5,
+				"rawData": {
+					"min": 0,
+					"max": 5000
+				},
+				"do_calibration": {
+					"support": false,
+					"calibration_apply": true,
+					"calibration_scheme": "SS_qcom",
+					"4_cm_minus_no_cover_min": 5,
+					"3_cm_minus_no_cover_min": 20,
+					"3_cm_minus_4_cm_min": 8,
+					"3_cm": {
+						"min": 0,
+						"max": 99999
+					},
+					"3_cm_offset": {
+						"min": 400,
+						"max": 99999
+					},
+					"4_cm": {
+						"min": 0,
+						"max": 99999
+					},
+					"noCover": {
+						"min": 0,
+						"max": 8000
+					},
+					"tpmodel_table": {
+						"default": {
+							"ALL": 0.36
+						}
+					}
+				}
+			}
+		},
+		{
+			"showName": "Battery"
+		},
+		{
+			"showName": "SdCard"
+		},
+		{
+			"showName": "MainSIMCard"
+		},
+		{
+			"showName": "SubSIMCard"
+		},
+		{
+			"showName": "Wlan"
+		},
+		{
+			"showName": "Bluetooth"
+		},
+		{
+			"showName": "GPS"
+		},
+		{
+			"showName": "OTG"
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"itemConfig": [{
+			"showName": "VersionInfo"
+		},
+		{
+			"showName": "Battery"
+		},
+		{
+			"showName": "NFC"
+		},
+		{
+			"showName": "Sar1"
+		},
+		{
+			"showName": "Sar2"
+		},
+		{
+			"showName": "Magnetic",
+			"paramconfig": {
+				"support_disk": true,
+				"support_draw": true
+			}
+		}
+	]
+}

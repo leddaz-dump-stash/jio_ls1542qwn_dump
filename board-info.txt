@@ -1,0 +1,2 @@
+require version-baseband=3.4-00042-SDM439_GENNS_PACK-1.474074.1.475940.1
+require version-vendor=1650400804

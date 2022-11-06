@@ -1,0 +1,24 @@
+#/*************************************************************
+# * Jio Platforms Ltd.
+# * CONFIDENTIAL
+# * __________________
+# * Copyright (C) 2020 Jio Platforms Ltd.–
+# *
+# *  ALL RIGHTS RESERVED.
+# *
+# * NOTICE:  All information including computer software along with source code and associated
+# * documentation contained herein is, and remains the property of Jio Platforms Ltd..
+# *  The intellectual and technical concepts contained herein are
+# * proprietary to Jio Platforms Ltd. and are protected by
+# * copyright law or as trade secret under confidentiality obligations.
+# * Dissemination, storage, transmission or reproduction of this information
+# * in any part or full is strictly forbidden unless prior written
+# * permission along with agreement for any usage right is obtained from Jio Platforms Ltd
+# **************************************************************/
+
+# Create the /data/rb and sub-directories used by redbend client
+
+on post-fs-data
+    mkdir /data/rb 0770 system cache
+    mkdir /data/rb/rjio 0770 system cache
+    mkdir /data/rb/rjio/workdir 0770 system cache

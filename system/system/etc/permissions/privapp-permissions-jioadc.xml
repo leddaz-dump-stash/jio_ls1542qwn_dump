@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*************************************************************
+* Jio Platforms Ltd.CONFIDENTIAL
+* Copyright (C) 2020 Jio Platforms Ltd.–
+*
+*  ALL RIGHTS RESERVED.
+*
+* NOTICE:  All information including computer software along with source code and associated
+* documentation contained herein is, and remains the property of Jio Platforms Ltd..
+*  The intellectual and technical concepts contained herein are
+* proprietary to Jio Platforms Ltd. and are protected by
+* copyright law or as trade secret under confidentiality obligations.
+
+* Dissemination, storage, transmission or reproduction of this information
+* in any part or full is strictly forbidden unless prior written
+* permission along with agreement for any usage right is obtained from Jio Platforms Ltd
+**************************************************************/
+-->
+<permissions>
+   <privapp-permissions package="com.jio.adc.embedded">
+        <permission name="android.permission.PACKAGE_USAGE_STATS"/>
+        <permission name="android.permission.READ_LOGS"/>
+        <permission name="android.permission.LOCAL_MAC_ADDRESS"/>
+        <permission name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+        <permission name="android.permission.REAL_GET_TASKS"/>
+        <permission name="android.permission.READ_NETWORK_USAGE_HISTORY"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="android.permission.PROCESS_OUTGOING_CALLS"/>
+        <permission name="android.permission.READ_PHONE_STATE"/>
+        <permission name="android.permission.ACCESS_WIFI_STATE"/>
+        <permission name="android.permission.READ_SMS"/>
+        <permission name="android.permission.ACCESS_FINE_LOCATION"/>
+        <permission name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
+        <permission name="android.permission.ACCESS_COARSE_LOCATION"/>
+        <permission name="android.permission.INTERNET"/>
+        <permission name="android.permission.ACCESS_NETWORK_STATE"/>
+        <permission name="android.permission.CHANGE_NETWORK_STATE"/>
+        <permission name="android.permission.WAKE_LOCK"/>
+   </privapp-permissions>
+</permissions>

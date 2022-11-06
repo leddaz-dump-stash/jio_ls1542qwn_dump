@@ -1,0 +1,152 @@
+{
+	"itemConfig": [
+		{
+			"showName": "VersionInfo"
+		},
+		{
+			"showName": "KeyPad"
+		},
+		{
+			"showName": "TpOpenShort"
+		},
+		{
+			"showName": "Backlight"
+		},
+		{
+			"showName": "LCD",
+			"paramconfig": {
+				"auto_switch": false
+			}
+		},
+		{
+			"showName": "TouchPal"
+		},
+		{
+			"showName": "MainCamera"
+		},
+		{
+			"showName": "FrontCamera"
+		},
+		{
+			"showName": "Flashlight"
+		},
+		{
+			"showName": "Speaker"
+		},
+		{
+			"showName": "Receiver"
+		},
+		{
+			"showName": "HeadSet"
+		},
+		{
+			"showName": "HsMicToHeadPhone"
+		},
+		{
+			"showName": "MainMicToHeadPhone"
+		},		
+		{
+			"showName": "MainMicToReceiver"
+		},
+		{
+			"showName": "SubMicToSpeaker"
+		},
+		{
+			"showName": "FM"
+		},
+		{
+			"showName": "AovMainmicTest",
+			"paramconfig": {
+				"is_mainMic": true
+			}
+		},
+		{
+			"showName": "AovSubmicTest",
+			"paramconfig": {
+				"is_mainMic": false
+			}
+		},
+		{
+			"showName": "Vibrator",
+			"paramconfig": {
+				"is_auto_vibrate": false
+			}
+		},
+		{
+			"showName": "Accelerometer",
+			"action": "com.mmigroup.action.ACCELEROMETER",
+			"support": true,
+			"automatic": false,
+			"paramconfig": {
+				"support_calibrate": true,
+				"support_axialresult": true,
+				"support_angle45": true,
+				"support_angleneg45": true,
+				"data_suffix_rate": 1000,
+				"gravity_45_degree_x": -4.9000,
+				"gravity_45_degree_y": 4.9000,
+				"gravity_45_degree_z": 6.9340,
+				"gravity_45_degree_tolerance": 0.71,
+				"gravity_axial_limit": 1.5,
+				"is_auto_calibrate": false,
+				"support_plus_or_minus_45_degrees_either_pass_through": false,
+				"autoTest": {
+					"support_calibrate": true
+				}
+			}
+		},
+		{
+			"showName": "Optical"
+		},
+		{
+			"showName": "Proximity_C",
+			"action": "com.mmigroup.action.PROXIMITY_OP",
+			"support": true,
+			"support_autoTest_autopass": false,
+			"automatic": false,
+			"paramconfig": {
+				"distance_tolerance": 0.5,
+				"do_calibration": {
+					"support": true,
+					"support_3cm_cover_cali": true,
+					"calibration_scheme": "cmcc_qcom"
+
+				},
+				"autoTest": {
+					"do_calibration": {
+						"support": true,
+						"support_3cm_cover_cali": true,
+						"calibration_scheme": "cmcc_qcom"
+					}
+				}
+			}
+		},
+		{
+			"showName": "Proximity"
+		},
+		{
+			"showName": "Battery"
+		},
+		{
+			"showName": "SdCard"
+		},
+		{
+			"showName": "MainSIMCard"
+		},
+		{
+			"showName": "SubSIMCard"
+		},
+		{
+			"showName": "Wlan"
+		},
+		{
+			"showName": "Bluetooth"
+		},
+		{
+			"showName": "GPS"
+		},
+		{
+			"showName": "OTG"
+		}
+	]
+}
